@@ -19,6 +19,8 @@ class Rover
         else
           puts "Improper input"
         end
+        puts "The new rover position is #{ @x } and #{ @y}
+        with the direction of #{ @direction }"
       end
   end
 
